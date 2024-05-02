@@ -14,4 +14,10 @@ Clone the repository and install the dependencies:
 git clone https://github.com/yourusername/search-highlight-app.git
 cd search-highlight-app
 npm install
+
+```
+
+### After Installation
+```bash
 npm start
+```
