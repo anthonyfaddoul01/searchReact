@@ -11,7 +11,7 @@ Before you run this project, install Node.js and npm.
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/yourusername/search-highlight-app.git
+git clone https://github.com/anthonyfaddoul01/searchReact
 cd search-highlight-app
 npm install
 
