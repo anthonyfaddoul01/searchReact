@@ -21,12 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <input
-        type="text"
-        placeholder="Search for..."
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-      />
+      <input type="text" placeholder="Search for..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)}/>
       <div>
         {articles.map(article => (
           <p key={article.id} dangerouslySetInnerHTML={{ __html: highlightText(article.text) }} />
